@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+	<title>Login Form</title>
+    <style>
+      
+       .container {
+            width: 50%;
+            margin: 10px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+			margin-top: 20px;
+			margin-left: 60px;
+            margin-bottom: 20px;
+			 width: 80%;
+            padding: 10px;
+            background-color: #b91df5;
+            color: white;
+            font-size: 22px;
+            border: none;
+            border-radius: 4px;
+         
+        }
+        img {
+        	width: 100%;
+            border: none;
+            border-radius: 4px;
+         
+        }
+		.topnav {
+  overflow: hidden;
+  background-color: #3498db;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 16px 18px;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+.topnav a:hover {
+  background-color: #ebdef0;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #f7f45d;
+  color: black;
+}
+       
+     
+
+   body {
+      background-color: #f8f9fa;
+    }
+   
+	 a {
+	  text-decoration: none;
+	  color: #0FA0CE; 
+}
+  a:hover {
+    color: #f82a0a; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="banner.JPG" />
+		<div class="topnav">
+  <a  href="index.html">Home</a>
+   <a  href="registration.html">Registration</a>
+  <a class="active" href="login.html">Login</a>
+  <a  href="catalogue.html">Catalogue</a>
+   <a  href="cart.html">Cart</a>
+  <a  href="checkout.html">Buy</a>
+</div>
+		<h2>Login Form</h2>
+        <form action="welcome.html" method="post">
+
+      <!-- Username -->
+     
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Enter username" required><br>
+      
+
+      <!-- Password -->
+      
+        <label for="password">Password</label>
+        <input type="password"  id="password" placeholder="Enter password" required><br>
+     
+
+	  <!-- Submit Button -->
+	 
+<button type="reset" class="btn btn-primary  w-50 me-4">Reset</button>
+  <button type="submit" class="btn btn-success  w-50">Login</button></br>
+	
+  <h6>Not Registered -> <a href="registration.html">Register here !</a></h6>
+      
+    </form>
+   
+
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cart</title>
+    
+    <script defer src="cart.js"></script>
+	<style>
+      
+       .container1 {
+            width: 50%;
+            margin: 10px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+			margin-top: 20px;
+			margin-left: 60px;
+            margin-bottom: 20px;
+			 width: 80%;
+            padding: 10px;
+            background-color: #b91df5;
+            color: white;
+            font-size: 22px;
+            border: none;
+            border-radius: 4px;
+         
+        }
+        img {
+        	width: 100%;
+            border: none;
+            border-radius: 4px;
+         
+        }
+		.topnav {
+  overflow: hidden;
+  background-color: #3498db;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 16px 18px;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+.topnav a:hover {
+  background-color: #ebdef0;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #f7f45d;
+  color: black;
+}
+       
+     
+
+   body {
+      background-color: #f8f9fa;
+    }
+   
+    </style>
+</head>
+<body>
+<div class="container1">
+        <img src="banner.JPG" />
+		<div class="topnav">
+  <a   href="index.html">Home</a>
+   <a  href="registration.html">Registration</a>
+  <a  href="login.html">Login</a>
+  <a  href="catalogue.html">Catalogue</a>
+  <a  class="active" href="cart.html">Cart</a>
+  <a  href="checkout.html">Buy</a>
+</div>
+    
+        <h2>Your Cart</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Image</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                </tr>
+            </thead>
+            <tbody id="cart-items"></tbody>
+        </table>
+        <h4 id="total-price">Total: Rs.0</h4>
+        <a href="checkout.html">Proceed to Checkout</a>
+    </div>
+</body>
+</html>
